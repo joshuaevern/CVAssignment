@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  #index{
+#index{
      background-color: aquamarine;
      
   
@@ -12,6 +8,7 @@
     width: 98%;
     height: 98%;
     border: 5px solid black;
+    box-sizing: border-box;
     }
   }
   /* Style the header */
