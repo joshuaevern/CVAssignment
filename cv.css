@@ -1,58 +1,57 @@
-
 * {
-  box-sizing: border-box;
-}
-
-#index{
-   background-color: aquamarine;
-   
-
-}
-#body{
-  background-color: honeydew;
-  width: 98%;
-  height: 98%;
-  border: 5px solid black;
+    box-sizing: border-box;
   }
-}
-/* Style the header */
-.header {
-  background-color: cadetblue;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 30%;
-  padding-left: 10%;
-  padding-left: 10%;
-}
-#headings{
-  padding-left: 10%;
-  padding-right: 20%;
-}
-#heading1{
-  padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 20%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
-@media screen and (max-width:600px) {
+  
+  #index{
+     background-color: aquamarine;
+     
+  
+  }
+  #body{
+    background-color: honeydew;
+    width: 98%;
+    height: 98%;
+    border: 5px solid black;
+    }
+  }
+  /* Style the header */
+  .header {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Create three equal columns that floats next to each other */
   .column {
-    width: 100%;
+    float: left;
+    width: 30%;
+    padding-left: 10%;
+    padding-left: 10%;
   }
-}*/
-hr{
-  width: 100%;
-  border-top: 1 px;
-}
+  #headings{
+    padding-left: 10%;
+    padding-right: 20%;
+  }
+  #heading1{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }*/
+  hr{
+    width: 100%;
+    border-top: 1 px;
+  }
