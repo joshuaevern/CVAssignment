@@ -19,4 +19,5 @@ window.addEventListener('load',() =>{
     document.getElementById('DateOfBirth').innerHTML = DateOfBirth;
     document.getElementById('Address').innerHTML = address;
     document.getElementById('phone').innerHTML = phone;
+    document.getElementById('phone').innerHTML = phone;
 })
